@@ -1,0 +1,140 @@
+.caption-text-notfound {
+	font-size: 20px;
+	border-width: 0px;
+	font-family: 'psl_kandaextra_proregular';
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+
+.header {
+	color: #22b10d;
+}
+
+.shadow-lg {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.btn-custom {
+	background-color: #00c230 !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#57C649",
+		endColorstr="#32A824");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#57C649),
+		to(#32A824));
+	background-image: linear-gradient(#57C649, #32A824);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+
+.btn-cancel {
+	color: #fff;
+	background-color: #A8A8A8;
+	border-color: #A8A8A8;
+}
+
+.mes_error {
+	font-size: 13px;
+	line-height: 16px;
+	color: #CB0606;
+	background-image:
+		url('data:image/svg+xml,<svg xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" viewBox%3D"0 0 11.314 11.314">%0D <defs>%0D <style>%0D .cls-1 %7B%0D fill%3A %23cb0606%3B%0D %7D%0D <%2Fstyle>%0D <%2Fdefs>%0D <path id%3D"Path_1" data-name%3D"Path 1" class%3D"cls-1" d%3D"M0%2C0%2C8%2C8H0Z" transform%3D"translate(0 5.657) rotate(-45)"%2F>%0D<%2Fsvg>%0D');
+	background-repeat: no-repeat;
+	background-size: 8px auto;
+	background-position: 8px -4px;
+	padding-top: 8px;
+}
+
+.notFoundDiv {
+	min-height: 150px;
+}
+
+.u1 {
+	color: #7ABE6C;
+	font-size: 30px;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+}
+
+.u2 {
+	color: #F54D41;
+	font-size: 30px;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+}
+
+.u3 {
+	color: #F29A27;
+	font-size: 30px;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+}
+
+.common-text {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 28px;
+	color: #A1A1A1;
+}
+
+.verify-date {
+	color: #A1A1A1;
+}
+
+.data {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 28px;
+	color: #5E5E5E;
+}
+
+@font-face {
+	font-family: Kanit;
+	src: url("/rd-qr-validator-web/fonts/Kanit-Light.ttf")
+		format('truetype')
+}
+
+@font-face {
+	font-family: KanitRegular;
+	src: url("/rd-qr-validator-web/fonts/KanitRegular.ttf")
+		format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'psl_kandaextra_proregular';
+	src: url('../fonts/psl156pro-webfont.eot');
+	src: url('../fonts/psl156pro-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/psl156pro-webfont.woff2')
+		format('woff2'), url('../fonts/psl156pro-webfont.woff') format('woff'),
+		url('../fonts/psl156pro-webfont.ttf') format('truetype'),
+		url('../fonts/psl156pro-webfont.svg#psl_kandaextra_proregular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Sarabun;
+	src: url("/rd-qr-validator-web/fonts/Sarabun-Light.ttf")
+		format('truetype')
+}
+@font-face {
+	font-family: PSL-KandaExtra-Pro;
+	src: url("/rd-qr-validator-web/fonts/PSL-KandaExtra-Pro.otf")
+		format('truetype')
+}
+
+body {
+	font-family: 'psl_kandaextra_proregular';
+	font-size: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.correct-icon {
+	width: 50px;
+	height: 50px;
+}
+
+

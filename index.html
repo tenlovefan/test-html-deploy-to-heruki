@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- <meta http-equiv="Content-Type; X-UA-Compatible" content="IE=edge; text/html; charset=UTF-8" /> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>[QR Validator Page]</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
+	<!-- <link rel="icon" th:href="" /> -->
+
+	<link href="/rd-qr-validator-web/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/rd-qr-validator-web/css/datepicker.css" rel="stylesheet" type="text/css"/>
+	<link href="/rd-qr-validator-web/css/main.css" rel="stylesheet" type="text/css"/>
+
+	<!-- <link href="//getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet" media="screen"> -->
+    <link href="/rd-qr-validator-web/css/datepicker.css" rel="stylesheet" media="screen">
+    <!-- <link href="//getbootstrap.com/2.3.2/assets/js/google-code-prettify/prettify.css" rel="stylesheet"> -->
+    <!-- <link href="//getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
+    <link href="/rd-qr-validator-web/css/prettify.css" rel="stylesheet">
+    <link href="/rd-qr-validator-web/css/bootstrap-responsive.css" rel="stylesheet">
+    
+	<link href="/rd-qr-validator-web/css/custom.css" rel="stylesheet" type="text/css"/>
+	<link href="/rd-qr-validator-web/css/custom2.css" rel="stylesheet" type="text/css"/>
+
+	<!-- <script src="//getbootstrap.com/2.3.2/assets/js/jquery.js"></script> -->
+    <!-- <script src="//getbootstrap.com/2.3.2/assets/js/google-code-prettify/prettify.js"></script> -->
+	<script src="/rd-qr-validator-web/js/jquery.js"></script>
+    <script src="/rd-qr-validator-web/js/prettify.js"></script>
+    <script src="/rd-qr-validator-web/js/polyfiller.js"></script>
+	<script src="/rd-qr-validator-web/js/bootstrap.min.js" type="text/javascript" ></script>
+	<script src="/rd-qr-validator-web/js/bootstrap-datepicker.js" type="text/javascript" ></script>
+	<script src="/rd-qr-validator-web/js/bootstrap-datepicker-thai.js" type="text/javascript" ></script>
+	<script src="/rd-qr-validator-web/js/bootstrap-datepicker.th.js" type="text/javascript" ></script>
+	<!-- <script th:src="@{/js/datepicker.min.js}" type="text/javascript" ></script> -->
+	<!-- <script th:src="@{/js/moment.js}"></script> -->
+</head>
+
+<body class="body-form">
+	<div class="row">
+		<div class="col-md-12">
+			<div>
+		<div class="text-center">
+			<h3 class="text-center hearder-result" style="font-size: 40px;">ตรวจสอบใบเสร็จรับเงิน
+			</h3>
+		</div>
+		<div class="card-body col-lg-6 col-md-9 col-sm-9 m-auto">
+			<div>
+				<div class="text-center">
+					<img src="/rd-qr-validator-web/imgs/ic-result-success.svg" />
+					<div class="caption-text u1" style="font-size: 30px;">รายการใบเสร็จรับเงินที่ตรวจพบ</div>
+				</div>
+				
+				<div class="text-key text-center">หมายเลขอ้างอิงการยื่นแบบ</div>
+				<div class="box-ref-no m-auto text-center text-value">
+					<span>P300000133826</span>
+				</div>
+				<div class="line" style="margin-top: 15px;"></div>
+				<div class="form-result">
+					<div class="row">
+						<div class="form-group col-lg-6 col-sm-12">
+							<div class="text-key">เลขประจำตัวผู้เสียภาษีอากร</div>
+							<div class="text-value pattern-nid" id="nid">0-1055-53051-48-6</div>
+						</div>
+						<div class="form-group col-lg-6 col-sm-12">
+							<div class="text-key">ชื่อผู้เสียภาษี</div>
+							<div class="text-value">บริษัทเอฟ แอนด์ เอฟ แอพพลายแอนซ์ เซอร์วิส จำกัด</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-lg-6 col-sm-12 col-xs-12">
+							<div class="text-key"><br>ประเภทแบบแสดงรายการ</div>
+							<div class="text-value">ภ.พ.30</div>
+						</div>
+						<div class="form-group col-lg-6 col-sm-6 col-xs-5">
+							<div class="text-key"><br>เดือน/ปีภาษี</div>
+							<div class="text-value">09/2564</div>
+						</div>
+						<div class="form-group col-lg-6 col-sm-6 col-xs-5">
+							<div class="text-key"><br>เดือน/ปีภาษี</div>
+							<div class="text-value">9/2564</div>
+						</div>
+						<div class="form-group col-lg-6 col-sm-6 col-xs-6">
+							<div class="text-key"><br>วันที่ชำระเงิน/นำส่ง</div>
+							<div class="text-value" id='patternNid'>25/10/2564</div>
+						</div>
+					</div>
+				</div>
+				<div class="line" style="margin-top: 15px;"></div>
+				<div class="form-result">
+					<div class="row">
+						<div class="form-group col-lg-6 col-sm-12 col-12">
+								<div class="text-key">เลขที่ใบเสร็จเงิน</div>
+								<div class="text-value">65100560244</div>
+						</div>
+						<div class="form-group col-lg-6 col-sm-12 col-12">
+								<div class="text-key">ประเภทใบเสร็จรับเงิน</div>
+								<div class="text-value">ใบเสร็จรับเงินที่มีเงินต้องชำระ</div>
+						</div>
+					</div>
+				</div>
+				<div class="line" style="margin-top: 15px;"></div>
+				<div class="text-key text-center">จำนวนเงิน</div>
+				
+				<div>
+					<div class="text-center box-amount text-box-amount m-auto ">
+						<span>10,184.00 บาท</div>
+				</div>
+
+			</div>
+			<br>
+			
+			<div class="card-footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="text-body">
+					<div class="row">
+						<div class="col-lg-6 col-sm-12 col-12 text-center text-footer">
+							<span>รหัสการตรวจสอบ: <span> <span
+									class="text-card-footer">V64000000008704</span>
+							</span>  
+						</div>
+						<div class="col-lg-6 col-sm-12 col-12 text-center text-footer">
+							</span> <span></span>วันที่ตรวจสอบ: <span
+								class="verify-date text-card-footer">29/12/2021 20:24</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<br>
+	</div>
+		</div>
+	</div>
+	<!-- <div th:replace="fragments/footer :: footer"></div> -->
+	<div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				console.log(document.getElementById("nid").value);
+			});
+		</script>
+		<script
+			src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+			async="async" defer="defer"></script>
+	</div>
+</body>
+
+</html>

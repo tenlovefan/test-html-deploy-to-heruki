@@ -1,0 +1,250 @@
+.card-box  {
+	background: #FFFFFF;
+	/* border */
+	border: 1px solid #E2E2E2;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	display: flex;
+}
+.card-box-detail {
+	height : auto; 
+	background: #F2F2F2;
+	border-radius: 10px;
+	align-items: center;
+	padding: 15px 15px 15px 15px;
+	margin:20px;
+	margin-top:15px;
+}
+
+.text-herder  {
+	height: 70px;
+	left: 123px;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 58px;
+	align-items: center;
+	color: #3A3E4E;
+	border-bottom: 2px solid #00C100;
+	margin-bottom: 15px;
+}
+.text-box {
+	background: #FFFFFF;
+	border: 1px solid #E2E2E2;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.text-detail {
+	font-family: Sarabun;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: rgba(27, 34, 53, 0.87);
+	margin-bottom: 20px;
+}
+.text-tap {
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	/*font-weight: 800;*/
+	font-size: 28px;
+	line-height: 34px;
+	display: flex;
+	align-items: center;
+	color: #3A3E4E;
+	text-align: center;
+}
+
+.hearder-box {
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 36px;
+	align-items: center;
+	color: #7ABE6C;
+	/*border-bottom: 1px solid #E2E2E2;*/
+	margin-left:15px;
+	padding:10px 10px 10px 10px;
+}
+.text-key {
+	font-family: Sarabun;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 21px;
+	align-items: center;
+	color: #787878;
+}
+.text-value {
+	font-family: Sarabun;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 23px;
+	color: #1C1C1C;
+}
+
+.box-ref-no {
+	width: 204px;
+	height: 40px;
+	background: #F2F2F2;
+	border: 1px solid #E2E2E2;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom:15px;
+}
+.box-amount {
+	width: 204px;
+	height: 40px;
+	background: rgba(122, 190, 108, 0.1);
+	border: 1px solid #7ABE6C;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 5px;
+}
+.text-box-amount {
+	font-family: Sarabun;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	color: #47B03F;
+}
+
+.btn-check {
+	align-items: center;
+	width: 150px;
+	height: 51px;
+	background: #7ABE6C;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	font-size: 26px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid transparent;
+}
+
+.btn-clear {
+	align-items: right;
+	width: 144px;
+	height: 51px;
+	background: #E2E2E2;
+	border-radius: 10px;
+	color: #787878;
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	/*font-weight: 800;*/
+	font-size: 26px;
+	line-height: 31px;
+	text-align: center;
+	margin-right: 10px;
+	border: 1px solid transparent;
+}
+.recaptcha {
+	position: absolute;
+	width: 358px;
+	height: 104px;
+	text-align: center;
+}
+.body-detail{
+	align-items: center;
+}
+.card-body {
+	height: auto;
+	background: #FFFFFF;
+	border: 1px solid #E2E2E2;
+	box-sizing: border-box;
+	border-radius: 10px;
+	align-items: center;
+	margin:0px;
+    padding: 0px 0px 0px 0px;
+}
+.card-footer {
+	height: auto;
+	background: #F4F4F4;
+	border: 1px solid #F4F4F4;
+	box-sizing: border-box;
+	border-radius: 0px 0px 10px 10px;
+	padding:10px 0px 10px 0px;
+}
+.text-card-footer {
+	font-family: Sarabun;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 21px;
+	color: #1C1C1C;
+}
+.btn-back {
+	align-items: center;
+	height: 51px;
+	background: #FFFFFF;
+	border: 1px solid #7ABE6C;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-style: normal;
+	font-size: 26px;
+	line-height: 31px;
+	text-align: center;
+	color: #7ABE6C;
+	font-family: PSL-KandaExtra-Pro;
+}
+.hearder-result {
+	font-family: PSL-KandaExtra-Pro;
+	font-style: normal;
+	/*font-weight: 800;*/
+	font-size: 40px;
+	line-height: 35px;
+	color: #3A3E4E;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.input-date {
+	padding-right: 30px;
+	background-image: url("/rd-qr-validator-web/imgs/calendar.svg");
+	background-size: 18px 18px;
+	background-position: right 10px center;
+	background-repeat: no-repeat;
+	appearance: none;
+}
+.form-result{
+	margin-left:15%;
+	margin-right:10%;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
+.underline {
+  border-bottom: 1px solid #e8e8e8;
+  width: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.line {
+	border-bottom: 1px solid #e8e8e8;
+	width: auto;
+	margin-bottom :20px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.text-footer{
+	padding:0px;
+}
+.body-form {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.text-refno{
+	font-family: Sarabun;
+	font-size: 18px;
+	color: #1C1C1C;
+}

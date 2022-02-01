@@ -1,0 +1,118 @@
+.non-link a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  .content .tab {
+    text-align: center;
+  }
+  .content .tab .nav-tabs {
+    border: none;
+    display: inline-flex;
+    margin-bottom:50px;
+  }
+  .content .tab .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 28px;
+  }
+  .content .tab .nav-link.active {
+    border: none;
+    color: #3A3E4E;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #00C100;
+  }
+  .content .tab .nav-link:not(.active) {
+    color: #787878;
+    border: none;
+  }
+  .content .tab .tab-line {
+    opacity: 0.3;
+    border: 1px solid #000000;
+    height: 20px;
+    margin-top: 18px;
+    margin-right: 15px;
+  }
+  .content .tab-content {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+  }
+  
+  .content .tab-content button {
+    margin-top: 50px;
+  }
+  .content .tab-content .des, .content .tab-content .dataTables_info, .content .tab-content .dataTables_paginate, .content .tab-content .dataTables_wrapper .dataTables_paginate .paginate_button, .dataTables_wrapper .dataTables_paginate .content .tab-content .paginate_button, .content .tab-content .bullet-list .list-group-item, .bullet-list .content .tab-content .list-group-item, .content .tab-content .footer .container .bs, .footer .container .content .tab-content .bs, .content .tab-content .footer .list-group-item, .footer .content .tab-content .list-group-item {
+    font-size: 18px;
+  }
+  
+  .box-card {
+      background: #F2F2F2;
+      border-radius: 10px;
+  }
+  
+  .line {
+      position: static;
+      width: 236px; height : 0px; left : 0px; top : 58px;
+      border-bottom: 2px solid #22b10d;
+      height: 0px;
+      left: 0px;
+      top: 58px;
+  }
+  .header {
+      color: #7ABE6C;
+      font-size: 48px;
+  }
+  .header-box-card{
+      color: #7ABE6C;
+      font-size:30px;
+  }
+  .text-body {
+      font-family: Sarabun;
+      font-weight: 300;
+      font-size: 16px;
+      color: #787878;
+      
+  }
+  .text-total-amount {
+      font-style: normal; 
+      font-weight : 600; 
+      font-size : 20px; 
+      line-height :26px;
+      color: #47B03F;
+  }
+  .box-card-total-amount {
+      background: rgba(122, 190, 108, 0.1);
+      border: 1px solid #47B03F;
+      box-sizing: border-box;
+      border-radius: 10px;
+  }
+  .box-card-refNo {
+      background: #F2F2F2;
+      border: 1px solid #E2E2E2;
+      box-sizing: border-box;
+      border-radius: 10px;
+  }
+  
+  .icon-check {
+      width: 5px;
+      height: 5px;
+  }
+  .btn-close {
+      font-family: PSL KandaExtra Pro;
+      color: #7ABE6C;
+      text-align: center;
+      border: 1px solid #7ABE6C;
+      box-sizing: border-box;
+      border-radius: 10px;
+  }
+  .btn-cancel {
+      border-color: #A8A8A8;
+      border: 1px solid #7ABE6C;
+      box-sizing: border-box;
+      border-radius: 10px;
+  }
+  .row{
+      margin: 0px;
+  }
